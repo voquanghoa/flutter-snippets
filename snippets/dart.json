@@ -2,8 +2,9 @@
   "Stateless widget snippet": {
     "prefix": "fstless",
     "body": [
+      "import 'package:flutter/material.dart';",
+      "",
       "class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} extends StatelessWidget {",
-      "const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}({ Key? key }) : super(key: key);",
       "   const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}({ super.key });",
       "",
       "  @override",
