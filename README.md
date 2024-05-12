@@ -4,6 +4,8 @@
 
 A set of helpful Flutter and Dart snippets for day to day Flutter development.
 
+Forked from [https://github.com/Alexisvt/flutter-snippets](https://github.com/Alexisvt/flutter-snippets) with fixes.
+
 ## Features
 
 Simply Flutter set of snippets
